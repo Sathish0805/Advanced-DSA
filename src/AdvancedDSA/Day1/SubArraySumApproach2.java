@@ -12,6 +12,9 @@ package AdvancedDSA.Day1;
       sum = pf[j] - pf[i-1]
    (If i = 0, then sum = pf[j])
  - Check all (i, j) pairs and track the maximum sum.
+
+    Time Complexity - O(n²)
+    Space Complexity - O(n)
 */
 
 public class SubArraySumApproach2 {
