@@ -9,11 +9,15 @@ package AdvancedDSA.Day1;
  - Generate all possible subarrays using two loops (i to j).
  - For each subarray, calculate its sum using an inner loop.
  - Track the maximum sum found.
+
+    Time Complexity - O(n³)
+    Space Complexity - O(1)
 */
 
 public class SubArraySumApproach1 {
     public static void main(String[] args) {
         int[] arr = {4, 5, 2, 1, 6};
+//        int[] arr = {-4, -3, -6, -9, -2};
 
         int ans = Integer.MIN_VALUE;
 
