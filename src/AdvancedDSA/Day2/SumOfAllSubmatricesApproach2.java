@@ -6,6 +6,8 @@ public class SumOfAllSubmatricesApproach2 {
         int n = arr.length;
         int m = arr[0].length;
 
+        int[] arr1 = new int[n];
+
         int ans = 0;
 
         for(int i=0; i<n; i++){
